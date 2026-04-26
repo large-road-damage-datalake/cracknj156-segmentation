@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "cracknj156-segmentation",
+    "name": "CrackNJ156",
+    "short_name": "cracknj156-seg",
+    "description": "Segmentation packaging of CrackNJ156, a manually annotated high-resolution pavement crack dataset collected on the NUIST campus under varied materials, weather, seasons, and illumination conditions.",
+    "year": 2022
+  },
+  "project_context": {
+    "task": "segmentation",
+    "tasks": [
+      "segmentation"
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "task_classification": {
+      "primary_task": "segmentation",
+      "task_subtype": "semantic_segmentation"
+    },
+    "label_taxonomy_version": "road_damage_v2",
+    "segmentation_type": "semantic_segmentation",
+    "task_subtype": "semantic_segmentation"
+  },
+  "imaging_setup": {
+    "camera": "Smartphone / CCD-based pavement imaging setup reported by source authors",
+    "camera_viewpoint": [
+      "top-down"
+    ],
+    "resolution": "1384x1384, 1508x1508, 1512x1512, 1734x1734",
+    "lighting_conditions": "Natural illumination and street lamplight across varied weather and seasons",
+    "capture_height_mm": "Not reported",
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "1384x1384",
+        "count": 2
+      },
+      {
+        "resolution": "1508x1508",
+        "count": 3
+      },
+      {
+        "resolution": "1512x1512",
+        "count": 23
+      },
+      {
+        "resolution": "1734x1734",
+        "count": 128
+      }
+    ],
+    "resolution_by_country": [
+      {
+        "name": "China",
+        "resolutions": [
+          "1384x1384",
+          "1508x1508",
+          "1512x1512",
+          "1734x1734"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "1384x1384",
+            "count": 2
+          },
+          {
+            "resolution": "1508x1508",
+            "count": 3
+          },
+          {
+            "resolution": "1512x1512",
+            "count": 23
+          },
+          {
+            "resolution": "1734x1734",
+            "count": 128
+          }
+        ]
+      }
+    ]
+  },
+  "annotation_schema": [
+    {
+      "type": "segmentation_mask",
+      "description": "Binary crack masks for pixelwise pavement crack segmentation",
+      "classes": [
+        {
+          "id": 1,
+          "name": "crack",
+          "description": "CrackNJ156 class: crack",
+          "color": "#294F71",
+          "canonical_name": "crack",
+          "instances": 47497
+        }
+      ]
+    }
+  ],
+  "class_taxonomy": {
+    "version": "road_damage_v2",
+    "classes": [
+      {
+        "canonical_name": "crack",
+        "display_name": "Crack",
+        "damage_family": "crack",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "crack",
+          "cracked"
+        ],
+        "source_labels": [
+          "crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      }
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "unresolved_labels": []
+  },
+  "statistics": {
+    "n_images": 156,
+    "n_annotations": 47497,
+    "n_images_with_annotations": 155,
+    "average_annotations_per_image": 304.46794871794873,
+    "dataset_size": "964.77 MB",
+    "dataset_size_bytes": 1011638905,
+    "dataset_file_count": 312,
+    "image_format": "png_masks",
+    "class_distribution": {
+      "crack": 47497
+    },
+    "split": {
+      "data": {
+        "n_images": 156,
+        "percentage": 1.0,
+        "n_images_with_annotations": 155,
+        "annotation_coverage": 0.9936,
+        "dataset_size": "964.77 MB",
+        "dataset_size_bytes": 1011638905,
+        "dataset_file_count": 312
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "China",
+        "image_count": 156,
+        "annotated_image_count": 155,
+        "annotation_coverage": 0.9936
+      }
+    ],
+    "temporal_scope": "Images collected in 2020 and 2021; published in 2022"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Manually annotated pixel-level crack masks released with the Zenodo source package",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published dataset and journal article"
+  },
+  "authors": [
+    {
+      "name": "Zhengsen Xu",
+      "affiliation": "Nanjing University of Information Science and Technology",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Haiyan Guan",
+      "affiliation": "Nanjing University of Information Science and Technology",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Jian Kang",
+      "affiliation": "Nanjing University of Information Science and Technology",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Xiangda Lei",
+      "affiliation": "Nanjing University of Information Science and Technology",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Lingfei Ma",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yongtao Yu",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yiping Chen",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Jonathan Li",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "Not specified in source record",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/cracknj156-segmentation",
+    "download": "https://zenodo.org/records/6526409",
+    "paper": "https://www.sciencedirect.com/science/article/pii/S1569843222000279",
+    "doi": "https://doi.org/10.5281/zenodo.6526409",
+    "homepage": "https://zenodo.org/records/6526409"
+  },
+  "citation": {
+    "bibtex": "@article{xu2022letnet,\n  title = {Pavement crack detection from CCD images with a locally enhanced transformer network},\n  author = {Xu, Zhengsen and Guan, Haiyan and Kang, Jian and Lei, Xiangda and Ma, Lingfei and Yu, Yongtao and Chen, Yiping and Li, Jonathan},\n  journal = {International Journal of Applied Earth Observation and Geoinformation},\n  volume = {110},\n  pages = {102825},\n  year = {2022},\n  doi = {10.1016/j.jag.2022.102825},\n  url = {https://www.sciencedirect.com/science/article/pii/S1569843222000279}\n}\n\n@dataset{xu2022cracknj156,\n  author = {Xu, Zhengsen},\n  title = {CrackNJ156 dataset and the corresponding LETNet conde},\n  year = {2022},\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.6526409},\n  url = {https://doi.org/10.5281/zenodo.6526409}\n}"
+  },
+  "tags": [
+    "segmentation",
+    "road-crack",
+    "cracknj156",
+    "png-masks",
+    "china",
+    "top-down",
+    "high-resolution"
+  ],
+  "source_publication": {
+    "dataset_doi": "10.5281/zenodo.6526409",
+    "article_doi": "10.1016/j.jag.2022.102825",
+    "article_title": "Pavement crack detection from CCD images with a locally enhanced transformer network",
+    "journal": "International Journal of Applied Earth Observation and Geoinformation",
+    "year": 2022
+  }
+}

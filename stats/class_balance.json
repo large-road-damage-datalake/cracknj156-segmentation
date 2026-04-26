@@ -1,0 +1,26 @@
+{
+  "columns": [
+    "Class",
+    "Images",
+    "Objects",
+    "Count on image, average",
+    "Area on image, average (%)"
+  ],
+  "data": [
+    [
+      "crack",
+      155,
+      47497,
+      306.4323,
+      0.7521
+    ]
+  ],
+  "description": "Images column counts images containing at least one object of class.",
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 100
+  }
+}

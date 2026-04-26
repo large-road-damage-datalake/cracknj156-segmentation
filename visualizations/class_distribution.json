@@ -1,0 +1,16 @@
+{
+  "type": "bar",
+  "title": "Class Distribution",
+  "data": {
+    "labels": [
+      "crack"
+    ],
+    "values": [
+      47497
+    ],
+    "total": 47497,
+    "percentages": [
+      100.0
+    ]
+  }
+}
