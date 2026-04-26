@@ -91,7 +91,7 @@
           "description": "CrackNJ156 class: crack",
           "color": "#294F71",
           "canonical_name": "crack",
-          "instances": 47497
+          "instances": 638
         }
       ]
     }
@@ -129,15 +129,15 @@
   },
   "statistics": {
     "n_images": 156,
-    "n_annotations": 47497,
+    "n_annotations": 638,
     "n_images_with_annotations": 155,
-    "average_annotations_per_image": 304.46794871794873,
+    "average_annotations_per_image": 4.089743589743589,
     "dataset_size": "964.77 MB",
     "dataset_size_bytes": 1011638905,
     "dataset_file_count": 312,
     "image_format": "png_masks",
     "class_distribution": {
-      "crack": 47497
+      "crack": 638
     },
     "split": {
       "data": {

@@ -6,7 +6,7 @@ Segmentation packaging of CrackNJ156, a manually annotated high-resolution pavem
 
 - Task: segmentation
 - Images: 156
-- Annotations: 47497
+- Annotations: 638
 - Classes: 1 (crack)
 - Annotation format: paired PNG masks
 
