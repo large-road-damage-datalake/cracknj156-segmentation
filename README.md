@@ -34,7 +34,7 @@ The local raw copy uses numeric image filenames and original mask filenames; the
 
 ## License
 
-No explicit dataset license was identified from the source record.
+CC BY 4.0.
 
 ## Repository Links
 

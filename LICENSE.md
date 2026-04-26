@@ -2,8 +2,7 @@
 
 ## Source Dataset License
 
-No explicit dataset license was identified in the inspected Zenodo record summary.
-
+- CC BY 4.0
 - Source record: https://zenodo.org/records/6526409
 - DOI: https://doi.org/10.5281/zenodo.6526409
 
