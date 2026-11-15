@@ -1,6 +1,6 @@
 {
   "total_images": 156,
-  "total_annotations": 638,
+  "total_annotations": 581,
   "total_classes": 1,
   "annotated_images": 155,
   "annotation_coverage": 0.9935897435897436,
@@ -31,11 +31,11 @@
   "splits_breakdown": {
     "data": {
       "images": 156,
-      "annotations": 638,
+      "annotations": 581,
       "annotated_images": 155,
       "annotation_coverage": 0.9935897435897436,
       "classes": {
-        "crack": 638
+        "crack": 581
       },
       "image_resolution_histogram": {
         "1384x1384": 2,

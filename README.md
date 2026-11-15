@@ -2,16 +2,16 @@
 
 ## Overview
 
-Segmentation packaging of CrackNJ156, a manually annotated high-resolution pavement crack dataset collected on the NUIST campus under varied materials, weather, seasons, and illumination conditions.
+CrackNJ156 is a manually annotated high-resolution pavement crack segmentation dataset collected on the NUIST campus in Nanjing, China across varied surface materials, weather, seasons, and illumination conditions.
 
 - Task: segmentation
 - Images: 156
-- Annotations: 638
+- Images with annotations: 155
+- Annotations: 581
 - Classes: 1 (crack)
 - Annotation format: paired PNG masks
 
-The dataset covers road pavements with asphalt, concrete, stone, and terrazzo materials, and includes varied weather, season, and lighting conditions.
-The local raw copy uses numeric image filenames and original mask filenames; the package preparation step aligns image-mask pairs by sorted filename order and materializes matching basenames for the pipeline.
+The dataset covers road pavements with asphalt, concrete, stone, and terrazzo materials captured between 2020 and 2021 under natural daylight and street lamplight. In the source release (`10.5281/zenodo.6526409`), image files and mask files correspond 1-to-1 in sorted filename order (155 images contain crack masks and 1 image, `014.png`, has an empty background mask).
 
 
 ## Source Dataset

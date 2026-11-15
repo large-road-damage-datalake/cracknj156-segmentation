@@ -9,7 +9,7 @@ Xu, Z., Guan, H., Kang, J., Lei, X., Ma, L., Yu, Y., Chen, Y., & Li, J. (2022). 
 
 ## Source Dataset
 
-Xu, Z. (2022). CrackNJ156 dataset and the corresponding LETNet conde. Zenodo.
+Xu, Z. (2022). CrackNJ156 dataset and the corresponding LETNet code. Zenodo. doi: 10.5281/zenodo.6526409
 - https://doi.org/10.5281/zenodo.6526409
 
 ## Package Citation
